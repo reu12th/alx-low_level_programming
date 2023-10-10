@@ -5,16 +5,16 @@
  */
 void print_alphabet_x10(void)
 {
+	int count = 0;
+	
+	while (count <= 9)
+{
 	char alpha = 'a';
-
 	while (alpha <= 'z')
 {
-	int count = 0;
 	_putchar(alpha);
 	alpha++;
 
-	while (count <= 9)
-{
 	_putchar('\n');
 	count++;
 }
