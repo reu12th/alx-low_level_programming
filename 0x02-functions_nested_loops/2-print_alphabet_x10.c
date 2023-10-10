@@ -5,7 +5,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int count = 9;
+	int count = 0;
 	char alpha = 'a';
 
 	while (count++ <= 9)
