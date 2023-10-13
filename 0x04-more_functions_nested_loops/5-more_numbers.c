@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * more_numbers -  function that prints 10 times, from 0 to 14
@@ -17,8 +17,9 @@ void more_numbers(void)
 
 	while (n < 15)
 {
-
-	_putchar(n + '0');
+	if (n > 9)
+	_putchar(n / 10 + '0');
+	_putchar(n % 10 + '0');
 
 	n++;
 }
