@@ -1,7 +1,8 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_number - prints an integer
  * @n: input integer parameter
+ * reu12th (everywhere)
  * Return: void
  */
 
