@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - entry point
- * Description: Prints diagonals
+ * Description: a function that prints a triangle, followed by a new line
  * @size: size of the triangle
  * Return: void
  */
@@ -21,7 +21,7 @@ void print_triangle(int size)
 	while  (row <= size)
 {
 	spaces = size - row;
-	while (spaces >= 1;)
+	while (spaces >= 1)
 {
 	_putchar(' ');
 	spaces--;
