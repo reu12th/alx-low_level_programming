@@ -3,7 +3,7 @@
 /**
  * _puts - prints a string
  * @str: string
- * Return: the length of the string
+ * Return: void
  */
 void _puts(char *str)
 {
@@ -11,7 +11,8 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		_puts(str[i]);
+		_putchar(str[i]);
 		i++;
+	_putchar('\n'); 
 	}
 }
