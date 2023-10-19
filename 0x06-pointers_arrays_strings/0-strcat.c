@@ -2,9 +2,9 @@
 
 /**
  * _strcat - a function that concatenates two strings.
- * @dest: char to be checked
- * @src: char to be checked
- * Return: char (s)
+ * @dest: destination string
+ * @src: source string 
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
