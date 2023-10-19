@@ -5,6 +5,7 @@
  * @s: string to encode
  * Return: address of s
  */
+
 char *leet(char *s)
 {
 	int i, j;
@@ -14,9 +15,9 @@ char *leet(char *s)
 	i = 0;
 	while (*(s + i))
 {
-	
+
 	j = 0;
-	for (j <= 9)
+	while (j <= 9)
 {
 	if (a[j] == s[i])
 	s[i] = b[j];
