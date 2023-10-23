@@ -28,10 +28,10 @@ unsigned int _strspn(char *s, char *accept)
 	y++;
 }
 }
-	x++;
-
 	else
 	return (z);
+
+	x++;
 }
 	return (z);
 
