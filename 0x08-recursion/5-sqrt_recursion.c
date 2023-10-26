@@ -15,7 +15,7 @@ int checkr(int x, int y)
 	if (x * x > y)
 	return (-1);
 
-	return (check(x + 1, y));
+	return (checkr(x + 1, y));
 }
 
 /**
