@@ -22,7 +22,7 @@ int _strlen_recursion(char *s)
  * Return: 1 if s is palindrome, 0 otherwise.
  */
 
-int p_checkr(char *s, int i, int j)
+int p_checkr(char *s, int x, int y)
 {
 	if (s[x] == s[y])
 
