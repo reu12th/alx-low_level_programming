@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - prints file name
- * @argc: array index
- * @argv: array
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: arguments
  * Return: 0 success
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
+	(void)argc;
+
 	printf("%s\n", argv[0]);
 	return (0);
 }
