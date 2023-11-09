@@ -7,7 +7,7 @@
  */
 
 void print_all(const char * const format, ...)
- {
+{
 	int i;
 	int flag;
 	char *str;
