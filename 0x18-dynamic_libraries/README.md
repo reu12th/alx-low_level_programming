@@ -25,3 +25,7 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```   
 File: `libdynamic.so`, `main.h`
+
+### 1. Without libraries what have we? We have no past and no future
+A script that creates a dynamic library called liball.so from all the .c files that are in the current directory.   
+File: `1-create_dynamic_lib.sh`
