@@ -58,6 +58,8 @@ File: `100-operations.so`
 
 ## 3. Code injection: Win the Giga Millions!
 
+File: `101-make_me_win.sh`   
+
 ## Overview
 
 This script strategically exploits a timing window to maximize the chances
