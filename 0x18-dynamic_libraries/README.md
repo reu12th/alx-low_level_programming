@@ -58,13 +58,13 @@ File: `100-operations.so`
 
 ## 3. Code injection: Win the Giga Millions!
 
-### Overview
+## Overview
 
 This script strategically exploits a timing window to maximize the chances
 of winning the Giga Millions jackpot. It is designed to be executed 98
 seconds before Master Sysadmin Sylvain (MSS) runs the Giga Millions program.
 
-### Features
+## Features
 
 - **Timing Exploitation:** Takes advantage of a specific time frame.
 - **Directory Manipulation:** Strategically manipulates the directory to ensure a
@@ -72,7 +72,7 @@ seconds before Master Sysadmin Sylvain (MSS) runs the Giga Millions program.
 - **Security Constraints:** Developed under strict constraints to remain
   undetected.
 
-### Usage
+## Usage
 
 1. Upload the script to the server.
 
@@ -86,7 +86,7 @@ seconds before Master Sysadmin Sylvain (MSS) runs the Giga Millions program.
     mss@gm_server$ . ./101-make_me_win.sh
     ```
 
-### Script Execution
+## Script Execution
 
 - Removes itself after execution:
 
@@ -116,7 +116,7 @@ seconds before Master Sysadmin Sylvain (MSS) runs the Giga Millions program.
     --> Please make me win!
     ```
 
-### Disclaimer
+## Disclaimer
 
 This script is intended for educational purposes only. Use it responsibly
 and ethically.
